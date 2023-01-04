@@ -19,20 +19,21 @@
     ]
   },
   "Gallery": [
-    {
+  {
       "title": "Custom Plugin Development",
-      "largeImage": "img/portfolio/custom-large.jpg",
-      "smallImage": "img/portfolio/custom-small.jpg"
+      "videoURL": "https://www.youtube.com/embed/jHFB7OOH9ug"
     },
     {
       "title": "ShipDesigner",
-      "largeImage": "img/portfolio/shipdesigner-large.jpg",
-      "smallImage": "img/portfolio/shipdesigner-small.jpg"
+      "videoURL": "https://www.youtube.com/embed/Ok_C9gnV1Ps"
     },
     {
       "title": "Galaxy",
-      "largeImage": "img/portfolio/galaxy-large.jpg",
-      "smallImage": "img/portfolio/galaxy-small.jpg"
+      "videoURL": "https://www.youtube.com/embed/BaFOL5eEYSc"
+    }
+    {
+      "title": "Galaxy",
+      "videoURL": "https://www.youtube.com/embed/v6ZjNxIUDW0"
     }
   ],
   "Services": [
