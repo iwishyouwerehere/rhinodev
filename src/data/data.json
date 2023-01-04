@@ -20,15 +20,15 @@
   },
   "Gallery": [
   {
-      "title": "Custom Plugin Development",
+      "title": "Automated 2d dimensions",
       "videoURL": "https://www.youtube.com/embed/jHFB7OOH9ug"
     },
     {
-      "title": "ShipDesigner",
+      "title": "Share your model on cloud and receive annotations",
       "videoURL": "https://www.youtube.com/embed/Ok_C9gnV1Ps"
     },
     {
-      "title": "Galaxy",
+      "title": "CNC cutting files from 3d model",
       "videoURL": "https://www.youtube.com/embed/BaFOL5eEYSc"
     }
   ],
@@ -52,32 +52,32 @@
  "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"We were blown away by the level of expertise and professionalism displayed by the RhinoPlugins team. They were able to create a custom plugin for us that exceeded our expectations and helped us streamline our workflow. Highly recommend!\"",
+      "text": "We were blown away by the level of expertise and professionalism displayed by the RhinoPlugins team. They were able to create a custom plugin for us that exceeded our expectations and helped us streamline our workflow. Highly recommend!",
       "name": "Emma Thompson"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"As a structural engineer, I rely on accurate and efficient software to get the job done. ShipDesigner from RhinoPlugins has exceeded my expectations in every way. The team was also incredibly helpful in answering my questions and providing support.\"",
+      "text": "As a structural engineer, I rely on accurate and efficient software to get the job done. ShipDesigner from RhinoPlugins has exceeded my expectations in every way. The team was also incredibly helpful in answering my questions and providing support.",
       "name": "Paul Smith"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"As a space enthusiast, I was thrilled to discover the Galaxy plugin from RhinoPlugins. It's an incredibly immersive and educational tool that allows me to explore the solar system in real-time. The team was also very responsive and helpful.\"",
+      "text": "As a space enthusiast, I was thrilled to discover the Galaxy plugin from RhinoPlugins. It's an incredibly immersive and educational tool that allows me to explore the solar system in real-time.",
       "name": "Sara Johnson"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"We were in a bit of a time crunch when we reached out to RhinoPlugins for assistance with a custom plugin. Not only did they deliver an excellent product, but they were able to do it in record time. Highly impressed!\"",
+      "text": "We were in a bit of a time crunch when we reached out to RhinoPlugins for assistance with a custom plugin. Not only did they deliver an excellent product, but they were able to do it in record time. Highly impressed!",
       "name": "Mike Williams"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"As a design professional, I appreciate the attention to detail and high quality of the products and services offered by RhinoPlugins. They have consistently exceeded my expectations and have become my go-to team for all things RhinoCommon.\"",
+      "text": "As a design professional, I appreciate the attention to detail and high quality of the products and services offered by RhinoPlugins. They have consistently exceeded my expectations and have become my go-to team for all things RhinoCommon.",
       "name": "Jessica Kim"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"I've been working with the team at RhinoPlugins for several years now, and I am continually impressed by their expertise and customer support. They have helped me with a variety of projects and have always delivered top-notch results.\"",
+      "text": "I've been working with the team at RhinoPlugins for several years now, and I am continually impressed by their expertise and customer support. They have helped me with a variety of projects and have always delivered top-notch results.",
       "name": "David Anderson"
     }
   ],
