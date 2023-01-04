@@ -415,8 +415,10 @@ header .intro-text {
   padding: 20px;
 }
 .testimonial-image {
-  float: left;
-  margin-right: 15px;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .testimonial-image,
 .testimonial-image img {
