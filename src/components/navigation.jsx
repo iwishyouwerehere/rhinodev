@@ -16,7 +16,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            EXPERT RHINO PLUGIN DEVELOPMENT
+            Rhino Custom Solutions
           </a>{' '}
         </div>
 
