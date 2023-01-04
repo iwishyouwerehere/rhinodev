@@ -1,13 +1,168 @@
+Copy code
+/* Use a sans-serif font similar to Apple's */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'SF Pro', 'SF Pro Display', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
+/* Use a monospace font similar to Apple's */
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Courier New', monospace;
 }
+
+/* Use Apple's color scheme */
+:root {
+  --primary-color: #007AFF;
+  --secondary-color: #5856D6;
+  --tertiary-color: #FFFFFF;
+  --quaternary-color: #8E8E93;
+  --quinary-color: #C7C7CC;
+  --senary-color: #D3D3D3;
+}
+
+/* Add some padding and a white background to the body to match Apple's layout */
+body {
+  padding: 20px;
+  background-color: var(--tertiary-color);
+}
+
+/* Use the primary color for links and hover effects */
+a {
+  color: var(--primary-color);
+}
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* Use the secondary color for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--secondary-color);
+}
+
+/* Use the quaternary color for subheadings */
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p {
+  color: var(--quaternary-color);
+}
+
+/* Use the quinary color for body text */
+p {
+  color: var(--quinary-color);
+}
+
+/* Use the senary color for disabled elements and form inputs */
+[disabled],
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='number'],
+textarea {
+  color: var(--senary-color);
+  background-color: var(--quinary-color);
+  border: 1px solid var(--senary-color);
+}
+
+/* Use the primary color for active form inputs and buttons */
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='password']:focus,
+input[type='number']:focus,
+textarea:focus,
+button:active {
+  border: 1px solid var(--primary-color);
+}
+
+/* Use the secondary color for buttons */
+button {
+  color: var(--tertiary-color);
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+/* Use the quaternary color for hover effects on buttons */
+button:hover {
+  background-color: var(--quaternary-color);
+}
+
+/* Add some basic layout styles to match Apple's website */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Add some padding and a white background to sections to match Apple's layout */
+section {
+  padding: 40px 0;
+  background-color: var(--tertiary-color);
+}
+
+/* Use the quinary color for blockquotes */
+blockquote {
+  border-left: 5px solid var(--primary-color);
+  color: var(--quinary-color);
+  font-style: italic;
+  padding-left: 20px;
+}
+
+/* Use the quinary color for table cells */
+table td {
+  border: 1px solid var(--senary-color);
+  color: var(--quinary-color);
+  padding: 10px;
+}
+
+/* Use the primary color for table headings */
+table th {
+  border: 1px solid var(--senary-color);
+  color: var(--primary-color);
+  padding: 10px;
+  text-align: left;
+}
+
+/* Use the quinary color for unordered lists */
+ul {
+  color: var(--quinary-color);
+}
+
+/* Use the primary color for ordered lists */
+ol {
+  color: var(--primary-color);
+}
+
+/* Use the senary color for horizontal rules */
+hr {
+  border: 1px solid var(--senary-color);
+}
+
+/* Add some basic styles for the footer */
+footer {
+  background-color: var(--secondary-color);
+  color: var(--quinary-color);
+  padding: 40px 0;
+}
+
+/* Use the quaternary color for hover effects on footer links */
+footer a:hover {
+  color: var(--quaternary-color);
+}
+
+/* Use the primary color for the contact form submit button */
+.contact-form input[type='submit'] {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--tertiary-color);
+}
+
+/* Use the quaternary color for hover effects on the contact form submit button */
+.contact-form input[type='submit']:hover {
+  background-color: var(--quaternary-color);
+}
+
