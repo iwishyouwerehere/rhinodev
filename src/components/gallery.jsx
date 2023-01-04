@@ -1,5 +1,14 @@
 import { Image } from "./image";
 
+const Video = (props) => {
+  return (
+    <div>
+      <h3>{props.title}</h3>
+      <iframe src={props.videoURL} frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>
+    </div>
+  );
+};
+
 export const Gallery = (props) => {
   return (
     <div id='portfolio' className='text-center'>
